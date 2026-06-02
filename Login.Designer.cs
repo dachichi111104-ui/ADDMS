@@ -33,7 +33,6 @@
             label1 = new Label();
             txtUsername = new TextBox();
             txtPassword = new TextBox();
-            btnLogin = new Button();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
@@ -69,13 +68,6 @@
             txtPassword.Size = new Size(372, 37);
             txtPassword.TabIndex = 2;
             txtPassword.Text = "Password";
-            // 
-            // btnLogin
-            // 
-            btnLogin.Location = new Point(0, 0);
-            btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(75, 23);
-            btnLogin.TabIndex = 12;
             // 
             // label2
             // 
@@ -167,7 +159,7 @@
             guna2Button1.Size = new Size(372, 68);
             guna2Button1.TabIndex = 11;
             guna2Button1.Text = "Sign In";
-            guna2Button1.Click += this.guna2Button1_Click;
+            guna2Button1.Click += guna2Button1_Click;
             // 
             // fLogin
             // 
@@ -182,7 +174,6 @@
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(btnLogin);
             Controls.Add(txtPassword);
             Controls.Add(txtUsername);
             Controls.Add(label1);
@@ -197,7 +188,6 @@
         private Label label1;
         private TextBox txtUsername;
         private TextBox txtPassword;
-        private Button btnLogin;
         private Label label2;
         private Label label3;
         private Label label4;
