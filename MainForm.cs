@@ -54,10 +54,6 @@ namespace ADDMS2
         {
             LoadUC(new UC_TheodoiUAV());
         }
-        private void btnTapket_Click(object sender, EventArgs e)
-        {
-            LoadUC(new UC_Tapket());
-        }
         private void btnLenh_Click(object sender, EventArgs e)
         {
             LoadUC(new UC_lenh());

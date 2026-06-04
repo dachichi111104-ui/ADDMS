@@ -40,14 +40,11 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panelSidebar = new Panel();
             label1 = new Label();
             lbADDMS = new Label();
             btnVattu = new Guna.UI2.WinForms.Guna2Button();
             btnBaocao = new Guna.UI2.WinForms.Guna2Button();
-            btnTapket = new Guna.UI2.WinForms.Guna2Button();
             btnQuanly = new Guna.UI2.WinForms.Guna2Button();
             btnLenh = new Guna.UI2.WinForms.Guna2Button();
             btnTheodoi = new Guna.UI2.WinForms.Guna2Button();
@@ -68,7 +65,6 @@
             panelSidebar.Controls.Add(lbADDMS);
             panelSidebar.Controls.Add(btnVattu);
             panelSidebar.Controls.Add(btnBaocao);
-            panelSidebar.Controls.Add(btnTapket);
             panelSidebar.Controls.Add(btnQuanly);
             panelSidebar.Controls.Add(btnLenh);
             panelSidebar.Controls.Add(btnTheodoi);
@@ -84,7 +80,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 6F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(31, 92);
+            label1.Location = new Point(31, 96);
             label1.Name = "label1";
             label1.Size = new Size(125, 15);
             label1.TabIndex = 0;
@@ -113,7 +109,7 @@
             btnVattu.FillColor = Color.Transparent;
             btnVattu.Font = new Font("Segoe UI", 9F);
             btnVattu.ForeColor = Color.White;
-            btnVattu.Location = new Point(6, 377);
+            btnVattu.Location = new Point(6, 425);
             btnVattu.Name = "btnVattu";
             btnVattu.ShadowDecoration.CustomizableEdges = customizableEdges2;
             btnVattu.Size = new Size(175, 36);
@@ -132,7 +128,7 @@
             btnBaocao.FillColor = Color.Transparent;
             btnBaocao.Font = new Font("Segoe UI", 9F);
             btnBaocao.ForeColor = Color.White;
-            btnBaocao.Location = new Point(-18, 479);
+            btnBaocao.Location = new Point(-18, 482);
             btnBaocao.Name = "btnBaocao";
             btnBaocao.ShadowDecoration.CustomizableEdges = customizableEdges4;
             btnBaocao.Size = new Size(175, 36);
@@ -140,29 +136,10 @@
             btnBaocao.Text = "Báo cáo";
             btnBaocao.Click += btnBaocao_Click;
             // 
-            // btnTapket
-            // 
-            btnTapket.BorderColor = Color.Transparent;
-            btnTapket.CustomizableEdges = customizableEdges5;
-            btnTapket.DisabledState.BorderColor = Color.DarkGray;
-            btnTapket.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnTapket.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnTapket.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnTapket.FillColor = Color.Transparent;
-            btnTapket.Font = new Font("Segoe UI", 9F);
-            btnTapket.ForeColor = Color.White;
-            btnTapket.Location = new Point(2, 430);
-            btnTapket.Name = "btnTapket";
-            btnTapket.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnTapket.Size = new Size(175, 36);
-            btnTapket.TabIndex = 4;
-            btnTapket.Text = "Điểm tập kết";
-            btnTapket.Click += btnTapket_Click;
-            // 
             // btnQuanly
             // 
             btnQuanly.BorderColor = Color.Transparent;
-            btnQuanly.CustomizableEdges = customizableEdges7;
+            btnQuanly.CustomizableEdges = customizableEdges5;
             btnQuanly.DisabledState.BorderColor = Color.DarkGray;
             btnQuanly.DisabledState.CustomBorderColor = Color.DarkGray;
             btnQuanly.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -170,9 +147,9 @@
             btnQuanly.FillColor = Color.Transparent;
             btnQuanly.Font = new Font("Segoe UI", 9F);
             btnQuanly.ForeColor = Color.White;
-            btnQuanly.Location = new Point(0, 326);
+            btnQuanly.Location = new Point(0, 365);
             btnQuanly.Name = "btnQuanly";
-            btnQuanly.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            btnQuanly.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnQuanly.Size = new Size(175, 36);
             btnQuanly.TabIndex = 3;
             btnQuanly.Text = "Quản lý UAV";
@@ -181,7 +158,7 @@
             // btnLenh
             // 
             btnLenh.BorderColor = Color.Transparent;
-            btnLenh.CustomizableEdges = customizableEdges9;
+            btnLenh.CustomizableEdges = customizableEdges7;
             btnLenh.DisabledState.BorderColor = Color.DarkGray;
             btnLenh.DisabledState.CustomBorderColor = Color.DarkGray;
             btnLenh.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -189,9 +166,9 @@
             btnLenh.FillColor = Color.Transparent;
             btnLenh.Font = new Font("Segoe UI", 9F);
             btnLenh.ForeColor = Color.White;
-            btnLenh.Location = new Point(-1, 274);
+            btnLenh.Location = new Point(-1, 306);
             btnLenh.Name = "btnLenh";
-            btnLenh.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnLenh.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnLenh.Size = new Size(175, 36);
             btnLenh.TabIndex = 2;
             btnLenh.Text = "Lệnh cứu trợ";
@@ -200,7 +177,7 @@
             // btnTheodoi
             // 
             btnTheodoi.BorderColor = Color.Transparent;
-            btnTheodoi.CustomizableEdges = customizableEdges11;
+            btnTheodoi.CustomizableEdges = customizableEdges9;
             btnTheodoi.DisabledState.BorderColor = Color.DarkGray;
             btnTheodoi.DisabledState.CustomBorderColor = Color.DarkGray;
             btnTheodoi.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -208,9 +185,9 @@
             btnTheodoi.FillColor = Color.Transparent;
             btnTheodoi.Font = new Font("Segoe UI", 9F);
             btnTheodoi.ForeColor = Color.White;
-            btnTheodoi.Location = new Point(4, 223);
+            btnTheodoi.Location = new Point(4, 248);
             btnTheodoi.Name = "btnTheodoi";
-            btnTheodoi.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            btnTheodoi.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnTheodoi.Size = new Size(175, 36);
             btnTheodoi.TabIndex = 1;
             btnTheodoi.Text = "Theo dõi UAV";
@@ -219,7 +196,7 @@
             // btnDash
             // 
             btnDash.BorderColor = Color.Transparent;
-            btnDash.CustomizableEdges = customizableEdges13;
+            btnDash.CustomizableEdges = customizableEdges11;
             btnDash.DisabledState.BorderColor = Color.DarkGray;
             btnDash.DisabledState.CustomBorderColor = Color.DarkGray;
             btnDash.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -227,9 +204,9 @@
             btnDash.FillColor = Color.Transparent;
             btnDash.Font = new Font("Segoe UI", 9F);
             btnDash.ForeColor = Color.White;
-            btnDash.Location = new Point(12, 171);
+            btnDash.Location = new Point(12, 190);
             btnDash.Name = "btnDash";
-            btnDash.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btnDash.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnDash.Size = new Size(138, 36);
             btnDash.TabIndex = 0;
             btnDash.Text = "Dashboard";
@@ -315,7 +292,6 @@
         private Guna.UI2.WinForms.Guna2Button btnDash;
         private Guna.UI2.WinForms.Guna2Button btnVattu;
         private Guna.UI2.WinForms.Guna2Button btnBaocao;
-        private Guna.UI2.WinForms.Guna2Button btnTapket;
         private Guna.UI2.WinForms.Guna2Button btnQuanly;
         private Guna.UI2.WinForms.Guna2Button btnLenh;
         private Label lbADDMS;
