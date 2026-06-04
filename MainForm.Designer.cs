@@ -147,12 +147,12 @@
             btnQuanly.FillColor = Color.Transparent;
             btnQuanly.Font = new Font("Segoe UI", 9F);
             btnQuanly.ForeColor = Color.White;
-            btnQuanly.Location = new Point(0, 365);
+            btnQuanly.Location = new Point(5, 365);
             btnQuanly.Name = "btnQuanly";
             btnQuanly.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnQuanly.Size = new Size(175, 36);
             btnQuanly.TabIndex = 3;
-            btnQuanly.Text = "Quản lý UAV";
+            btnQuanly.Text = "Quản lý Drone";
             btnQuanly.Click += btnQuanly_Click;
             // 
             // btnLenh
@@ -185,12 +185,12 @@
             btnTheodoi.FillColor = Color.Transparent;
             btnTheodoi.Font = new Font("Segoe UI", 9F);
             btnTheodoi.ForeColor = Color.White;
-            btnTheodoi.Location = new Point(4, 248);
+            btnTheodoi.Location = new Point(10, 248);
             btnTheodoi.Name = "btnTheodoi";
             btnTheodoi.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnTheodoi.Size = new Size(175, 36);
             btnTheodoi.TabIndex = 1;
-            btnTheodoi.Text = "Theo dõi UAV";
+            btnTheodoi.Text = "Theo dõi Drone";
             btnTheodoi.Click += btnTheodoi_Click;
             // 
             // btnDash

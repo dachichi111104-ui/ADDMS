@@ -439,6 +439,7 @@
             dgvVatTu.Location = new Point(25, 66);
             dgvVatTu.Name = "dgvVatTu";
             dgvVatTu.RowHeadersWidth = 62;
+            dgvVatTu.ScrollBars = ScrollBars.None;
             dgvVatTu.Size = new Size(1083, 228);
             dgvVatTu.TabIndex = 2;
             dgvVatTu.CellClick += dgvVatTu_CellClick;
@@ -499,7 +500,7 @@
             Controls.Add(label16);
             Controls.Add(label15);
             Name = "UC_lenh";
-            Size = new Size(1107, 526);
+            Size = new Size(1133, 552);
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
             panel1.ResumeLayout(false);
